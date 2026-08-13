@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Kabayan Filipino Center logo">
+  <defs>
+    <linearGradient id="logoBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1454A4"/>
+      <stop offset="100%" stop-color="#073B78"/>
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="58" fill="url(#logoBlue)" stroke="#F5B82E" stroke-width="3"/>
+  <!-- eight-ray sun, referencing the Philippine flag -->
+  <g fill="#F5B82E">
+    <g id="ray">
+      <polygon points="60,14 64,28 56,28"/>
+    </g>
+    <use href="#ray" transform="rotate(45 60 60)"/>
+    <use href="#ray" transform="rotate(90 60 60)"/>
+    <use href="#ray" transform="rotate(135 60 60)"/>
+    <use href="#ray" transform="rotate(180 60 60)"/>
+    <use href="#ray" transform="rotate(225 60 60)"/>
+    <use href="#ray" transform="rotate(270 60 60)"/>
+    <use href="#ray" transform="rotate(315 60 60)"/>
+  </g>
+  <circle cx="60" cy="60" r="26" fill="#FFFFFF"/>
+  <text x="60" y="67" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="700" fill="#ED1C24" text-anchor="middle">KFC</text>
+</svg>
