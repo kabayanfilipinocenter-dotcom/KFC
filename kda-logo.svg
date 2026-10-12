@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 120" width="440" height="120" role="img" aria-label="Kabayan Dream Academy logo">
+  <text x="0" y="46" font-family="Poppins, Arial, sans-serif" font-size="44" font-weight="800" fill="#0B3B7A" letter-spacing="0.5">KABAYAN</text>
+
+  <g transform="translate(-4,58)">
+    <rect x="0" y="0" width="300" height="40" rx="3" fill="#0B3B7A" transform="skewX(-8)"/>
+    <text x="24" y="28" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="800" fill="#F5B82E" letter-spacing="0.5">DREAM</text>
+    <text x="140" y="28" font-family="Poppins, Arial, sans-serif" font-size="26" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">ACADEMY</text>
+  </g>
+</svg>

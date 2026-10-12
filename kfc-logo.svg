@@ -1,24 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Kabayan Filipino Center logo">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160" role="img" aria-label="Kabayan Filipino Center logo">
   <defs>
-    <linearGradient id="logoBlue" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#1454A4"/>
-      <stop offset="100%" stop-color="#073B78"/>
-    </linearGradient>
+    <clipPath id="circleClip"><circle cx="80" cy="80" r="74"/></clipPath>
   </defs>
-  <circle cx="60" cy="60" r="58" fill="url(#logoBlue)" stroke="#F5B82E" stroke-width="3"/>
-  <!-- eight-ray sun, referencing the Philippine flag -->
-  <g fill="#F5B82E">
-    <g id="ray">
-      <polygon points="60,14 64,28 56,28"/>
-    </g>
-    <use href="#ray" transform="rotate(45 60 60)"/>
-    <use href="#ray" transform="rotate(90 60 60)"/>
-    <use href="#ray" transform="rotate(135 60 60)"/>
-    <use href="#ray" transform="rotate(180 60 60)"/>
-    <use href="#ray" transform="rotate(225 60 60)"/>
-    <use href="#ray" transform="rotate(270 60 60)"/>
-    <use href="#ray" transform="rotate(315 60 60)"/>
+
+  <!-- outer ring -->
+  <circle cx="80" cy="80" r="78" fill="#FFFFFF"/>
+  <circle cx="80" cy="80" r="74" fill="#0B3B7A"/>
+
+  <g clip-path="url(#circleClip)">
+    <rect x="6" y="6" width="148" height="80" fill="#0B3B7A"/>
+    <rect x="6" y="86" width="148" height="68" fill="#ED1C24"/>
   </g>
-  <circle cx="60" cy="60" r="26" fill="#FFFFFF"/>
-  <text x="60" y="67" font-family="Poppins, Arial, sans-serif" font-size="22" font-weight="700" fill="#ED1C24" text-anchor="middle">KFC</text>
+
+  <!-- 8-ray gold sun, referencing the Philippine flag -->
+  <g fill="#F5B82E" transform="translate(80,74)">
+    <g id="ray2"><polygon points="0,-40 5,-24 -5,-24"/></g>
+    <use href="#ray2" transform="rotate(45)"/>
+    <use href="#ray2" transform="rotate(90)"/>
+    <use href="#ray2" transform="rotate(135)"/>
+    <use href="#ray2" transform="rotate(180)"/>
+    <use href="#ray2" transform="rotate(225)"/>
+    <use href="#ray2" transform="rotate(270)"/>
+    <use href="#ray2" transform="rotate(315)"/>
+    <circle r="15" fill="#F5B82E"/>
+  </g>
+
+  <text x="80" y="112" font-family="Poppins, Arial, sans-serif" font-size="9" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.3">카바얀필리피노센터</text>
+  <text x="80" y="126" font-family="Poppins, Arial, sans-serif" font-size="8.5" font-weight="600" fill="#FFFFFF" text-anchor="middle" letter-spacing="0.2">Kabayan Filipino Center</text>
+
+  <rect x="6" y="132" width="148" height="22" fill="#ED1C24" clip-path="url(#circleClip)"/>
+  <text x="80" y="148" font-family="Poppins, Arial, sans-serif" font-size="14" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">KFC</text>
+
+  <circle cx="80" cy="80" r="74" fill="none" stroke="#F5B82E" stroke-width="2.5"/>
 </svg>
